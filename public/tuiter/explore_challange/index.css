@@ -1,0 +1,416 @@
+.list-group-flush>.list-group-item {
+    border-width: 0 0 0 !important;
+}
+
+.list-group-item
+{
+
+    padding: 1rem !important;
+}
+
+.wd-searchicon
+{
+    position: absolute;
+    margin-top:8px;
+    margin-left:14px;
+}
+.wd-searchbox
+{
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    background-color:rgba(23,12,24,0.07) ;
+    width: 100%;
+    padding: 5px 5px 5px 60px;
+}
+
+.wd-gearicon
+{
+    color: white;
+    text-shadow: -1px 0 #000, 0 1px #000000, 1px 0 #000, 0 -1px #000;
+    margin-left:46px;
+    margin-top:13px;
+}
+
+
+.wd-row1
+{
+    margin-top:25px;
+}
+
+.wd-fa-style
+{
+    padding-right: 10px !important;
+    color: white;
+    text-shadow: -1px 0 #000, 0 1px #000000, 1px 0 #000, 0 -1px #000;
+
+}
+
+.wd-fa-twitter
+{
+    color:dodgerblue !important;
+}
+
+.wd-list
+{
+    color:gray !important;
+}
+
+.wd-speciallist
+{
+    color:black !important;
+    font-weight:bold !important;
+}
+.wd-twitterbtn
+{
+    border-radius: 60px !important;
+    margin-top:4px !important;
+    padding:10px !important;
+    background-color: dodgerblue !important;
+    font-weight: bolder !important;
+
+}
+
+.nav
+{
+    margin-top:10px;
+}
+
+
+
+.wd-navlink1
+{
+    color:dodgerblue !important;
+    font-weight: bold;
+}
+
+.wd-firstnav
+{
+    border-style: solid;
+    border-bottom-color: dodgerblue;
+    border-width: 2px;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+}
+
+.wd-navlink
+{
+    font-weight: bold;
+    color:gray !important;
+
+}
+
+.wd-imagecontent
+{
+    position: absolute;
+    color: white;
+    bottom:390px;
+    padding-left: 15px;
+
+}
+
+.wd-stadiumimage
+{
+    width: 100%;
+    margin-top:10px;
+
+}
+
+.wd-div1
+{
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+    border-bottom-color: transparent;
+    margin-top:5px;
+}
+.wd-div2
+{
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    margin-top:5px;
+}
+
+.wd-col1
+{
+    padding-top:15px;
+}
+.wd-heading1
+{
+    color:grey;
+    font-size: small;
+    padding-left: 15px;
+}
+.wd-heading2
+{
+    font-size: small;
+    padding-left: 15px;
+    font-weight: bold;
+}
+.wd-spancontent
+{
+    display: flex;
+    flex-direction: column;
+}
+.wd-threedots
+{
+    display:inline-block;
+    width:180px;
+    white-space: nowrap;
+    overflow:hidden !important;
+    text-overflow: ellipsis;
+}
+
+.wd-righcolimg
+{
+    border-radius: 70%;
+    width:95%;
+}
+
+.wd-btn
+{
+    background-color: black !important;
+    color:white !important;
+    font-weight: bold !important;
+    border-radius: 30px !important;
+    margin-left:0 !important;
+    width:90%;
+    border-color: transparent!important;
+    height:70%;
+}
+
+.wd-whotofollow
+{
+    color: black;
+    font-weight: bolder;
+}
+.wd-showmore
+{
+    font-weight: bold;
+    color: dodgerblue;
+}
+.wd-spanc1
+{
+    color: black;
+    font-weight: bolder;
+}
+
+.wd-spanc2
+{
+    color:grey;
+    font-weight: bolder;
+}
+
+.wd-div
+{
+    border-color: transparent !important;
+    background-color: rgba(85,83,90,0.21) !important;
+}
+
+.wd-divfirst
+{
+    border-color: transparent !important;
+
+}
+
+.wd-marginarouncontent1
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color:lightgray;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+
+}
+.wd-divbottom
+{
+    border-color: transparent !important;
+
+}
+
+.wd-lastcolspan
+{
+    padding-left:18px;
+    padding-right:10px;
+    font-size: small;
+    color:grey;
+}
+
+.wd-lastcoldiv1
+{
+    display: flex;
+    flex-direction: row;
+    padding-top:30px;
+
+}
+
+.wd-lastcoldiv
+{
+    display: flex;
+    flex-direction: row;
+    padding-top:5px;
+}
+
+.wd-icon {
+    color: dodgerblue;
+}
+
+
+@media (max-width: 767px){
+    .wd-imagecontent
+    {
+        position: absolute;
+        color: white;
+        bottom:490px;
+        padding-left: 15px;
+
+    }
+    .wd-imagecontent1
+    {
+        position: absolute;
+        color:white;
+        bottom: 450px;
+        padding-left:15px;
+        font-size: 30px;
+        font-weight:bold;
+    }
+    .wd-nav
+    {
+        width:25%;
+    }
+}
+
+
+@media (min-width: 768px)
+and (max-width: 991px){
+    .wd-imagecontent
+    {
+        position: absolute;
+        color: white;
+        bottom:400px;
+        padding-left: 15px;
+
+    }
+    .wd-imagecontent1
+    {
+        position: absolute;
+        color:white;
+        bottom: 360px;
+        padding-left:15px;
+        font-size: 30px;
+        font-weight:bold;
+    }
+    .wd-nav
+    {
+        width:20%;
+    }
+
+}
+
+@media (min-width: 992px)
+and (max-width: 1199px){
+
+    .wd-imagecontent
+    {
+        position: absolute;
+        color: white;
+        bottom:470px;
+        padding-left: 15px;
+
+    }
+    .wd-imagecontent1
+    {
+        position: absolute;
+        color:white;
+        bottom: 430px;
+        padding-left:15px;
+        font-size: 30px;
+        font-weight:bold;
+    }
+
+    .wd-nav
+    {
+        width:25%;
+    }
+
+    .wd-searchbox
+    {
+        border-radius: 20px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: transparent;
+        background-color:rgba(23,12,24,0.07) ;
+        width: 110%;
+        padding: 5px 5px 5px 60px;
+    }
+
+    .wd-btn
+    {
+        border-radius: 60px !important;
+        width:120%!important;
+        margin-top:10px !important;
+        padding-left:5px!important;
+
+
+    }
+
+}
+
+@media (min-width: 1200px)
+and (max-width: 1400px){
+
+    .wd-imagecontent
+    {
+        position: absolute;
+        color: white;
+        bottom:410px;
+        padding-left: 15px;
+
+    }
+    .wd-imagecontent1
+    {
+        position: absolute;
+        color:white;
+        bottom: 370px;
+        padding-left:15px;
+        font-size: 30px;
+        font-weight:bold;
+    }
+    .wd-nav
+    {
+        width:19%;
+    }
+}
+
+@media (min-width: 1399px )
+{
+
+    .wd-imagecontent
+    {
+        position: absolute;
+        color: white;
+        bottom:360px;
+        padding-left: 15px;
+
+    }
+    .wd-imagecontent1
+    {
+        position: absolute;
+        color:white;
+        bottom: 320px;
+        padding-left:15px;
+        font-size: 30px;
+        font-weight:bold;
+    }
+
+    .wd-nav
+    {
+        width:17%;
+    }
+
+}
