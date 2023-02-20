@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab5</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+
+        <h2>Embedded script tag</h2>
+        <!--<script>
+            alert('Hello World!');
+        </script>-->
+        <h2>Writing to the DOM</h2>
+        <script>
+            document.write('Welcome to JavaScript!')
+        </script>
+
+        <h2>Calculating an HTML string</h2>
+
+        <script>
+            const renderTodos = (todos) =>
+                `
+                                                 <ul>
+                                                      ${todos.map(todo => `<li>${todo}</li>`
+                                                            ).join('')}
+                 </ul>`;
+            const todos = ['Pickup kids', 'Feed dogs']
+            let html = renderTodos(todos);
+            document.write(html);
+        </script>
+
+
+
+        <h2 id="bind-by-id"> Binding by ID</h2>
+        <h3 class="bind-by-class">Binding 1 by Class</h3>
+        <h3 class="bind-by-class">Binding 2 by Class</h3>
+
+        <h2 id="change-style">
+            Change style</h2>
+        <h3 class="change-style">
+            Change style 1</h3>
+        <h3 class="change-style">
+            Change style 2</h3>
+
+        <h2 id="get-id-attr">
+            Get id attribute
+        </h2>
+
+        <h2 id="set-class-attr">Set class attribute</h2>
+
+        <h2 id="add-class">Adding new class</h2>
+        <h2 id="remove-class" class="class-2">Removing class</h2>
+
+        <h2 id="hide-me">Hide me</h2>
+        <h2 id="show-me" class="im-hidden">Show me</h2>
+
+        <h2>Adding new elemens VIA JS</h2>
+        <ul id="add-newlist"></ul>
+        <h2 id="add-newtag"></h2>
+
+        <h2>Removing Elements from DOM</h2>
+        <ul>
+            <li>First item</li>
+            <li>Second item</li>
+            <li id="remove-list">Third item</li>
+            <li>Fourth item</li>
+            <li>Fifth item</li>
+        </ul>
+
+        <h2>Emptying all List and h2 tag</h2>
+        <ul id="empty-list">
+            <li>First item</li>
+            <li>Second item</li>
+            <li >Third item</li>
+            <li>Fourth item</li>
+            <li>Fifth item</li>
+        </ul>
+        <h2 id="remove-h2tag">removing them</h2>
+
+        <h2>Change content</h2>
+        <p id="change-this-text">
+            Change me
+        </p>
+        <ul id="change-this-html">
+        </ul>
+
+
+        <h2>Navigating the DOM hierarchy</h2>
+        <div id="parent"> This is the parent DIV
+            <ul>
+                <li>Child 1</li>
+                <li id="child-2">Child 2</li>
+                <li>Child 3</li>
+            </ul>
+        </div>
+
+
+        <h2>Event handling</h2>
+        <h2 class="clickable">Click event</h2>
+        <p class="clickable">Anything can be clickable</p>
+        <button class="clickable">Not just me</button>
+
+
+        <h2 id="event-target">Event target </h2>
+
+        <h2>Hide or Show using buttons</h2>
+        <h2 id="id-content">Content to be hidden or shown when button is pressed.</h2>
+        <button id="btn-show"> Showing stuffs </button>
+        <button id="btn-hide"> Hiding stuffs</button>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

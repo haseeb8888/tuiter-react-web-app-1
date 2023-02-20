@@ -1,0 +1,20 @@
+.class-new
+{
+    background-color: yellow;
+    color: red;
+}
+
+.class-add
+{
+    background-color: #61dafb;
+    color: #ff7070;
+}
+
+.class-2
+{
+    background-color: dodgerblue;
+}
+
+.im-hidden {
+    display: none;
+}

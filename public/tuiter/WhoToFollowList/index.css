@@ -1,0 +1,22 @@
+
+.wd-rightcolimg
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.wd-rightcolcontent
+{
+    display: block;
+}
+
+.wd-btn
+{
+    border-radius: 60px !important;
+    margin-right:10px !important;
+    padding-right:14px !important;
+    margin-top:10px !important;
+
+}
+
